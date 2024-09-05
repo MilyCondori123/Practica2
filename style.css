@@ -1,0 +1,168 @@
+* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+   
+}
+
+header {
+    background: hsl(258, 85%, 40%);
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: hsl(315, 15%, 90%);
+    text-decoration: none;
+    background-color: hwb(212 9% 17%);
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+
+footer {
+    background: rgb(21, 6, 153);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* En botones */
+.products {
+    padding: 0 0 50px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    color: black;
+}
+
+.box-container {
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+/* border de color */
+.box {
+    border-top: 2px solid #230bad;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(31, 147, 201, 0.2);
+    background-color: #f6fafb;
+    display: nome;
+    border-bottom: 10px;
+}
+
+
+/* tamaño de la imagen*/
+.box img {
+    height: 200px;
+}
+
+
+
+
+/* Productos calidad */
+.product-txt p {
+    margin-bottom: 25px;
+    color: #515151;
+}
+
+.Precio {
+    font-size: 17px;
+    font-weight: 700;
+    color: #3b0da7 !important;
+}
+
+.btn-3 {
+    background-color: #1714a8;
+    margin-top: 50px;
+    display: inline-block;
+    padding: 11px 35px;
+    border-radius: 25px;
+    color: #f6fafb;
+    font-size: 16px;
+       text-decoration: none;
+   
+    
+}
+/* En botones de cambio de color */
+.btn-2:hover,
+.btn-3:hover,
+.btn-1:hover {
+    background-color: hsl(223, 37%, 93%);
+}
+
+.btn-3 {
+    margin: 0;
+    padding: 8px 25px;
+    border-radius: 10px;
+}
+
+
+
+
+/* Estilo del formulario de contacto */
+form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
